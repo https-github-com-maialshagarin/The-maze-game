@@ -216,5 +216,19 @@ left:170px;
         font-family: Marker Felt, fantasy; 
     }
     
-
-
+    #form1 {
+        max-width:500px;
+        margin:2rem auto;
+        border:2px solid rgba(215, 191, 213, 0.605);
+        padding:2rem;
+        background-color:rgba(215, 191, 213, 0.605);
+    
+        
+    }
+    label{
+        display: block;
+    }
+    #button2{
+        margin:5px;
+    }
+    
