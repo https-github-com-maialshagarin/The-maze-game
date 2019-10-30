@@ -1,0 +1,119 @@
+  
+  body {
+     /* background-image: url("https://i.pinimg.com/564x/34/2a/b8/342ab8b3103e9991fbeefaee30a4b663.jpg");*/    
+    text-align: center;
+    background:radial-gradient(rgb(250, 208, 201), rgba(32, 54, 62, 0.591)) fixed;
+}
+   h6{
+      font-family:Patrick Hand, cursive ;
+      font-size: 20px;
+      color: rgba(90, 51, 25, 0.945);
+      font-weight: 500;
+      text-align: left;
+     margin-left:100px;
+    
+     width: 130px; 
+     overflow: hidden;
+     border: 2px solid #000000;
+   }
+   h3 {
+      font-family:Patrick Hand, cursive ;
+          font-size: 33px;
+          color: rgba(104, 58, 25, 0.945);
+          font-weight: 500;
+          margin-left: 100px;
+          border-style: solid;
+          border-bottom-width: thin;
+          text-align: justify; /* For Edge */
+          text-align-last: center;
+        
+  
+      }
+  p {
+      font-family:oblique;
+          font-size: 25px;
+          color: rgba(136, 64, 15, 0.945);
+          font-weight: 300;	
+      
+       }
+    
+    h1 {
+  
+   font-size: 80px;
+   color:rgb(242, 235, 235);
+   font-weight: 900;
+      /*background-image: url("https://i.pinimg.com/564x/17/5c/f9/175cf9ff2a0a14d7f6e2f08a883105dc.jpg");*/
+      background-size: 150px;
+      height: 110px;
+      margin-bottom: 20px;
+      margin-left: 500px;
+      margin-right: 500px;
+      font-family: Brush Script MT, Brush Script Std, cursive;
+    
+
+  
+  
+      }
+   
+      .flip-box {
+          background-color: transparent;
+          width: 300px;
+          height: 200px;
+          perspective: 1000px;
+          box-sizing: border-box;
+          padding-top: 100px;
+          padding-bottom: 500px;
+          float: left;
+          width: 50%; 
+   }
+        
+        /* This container is needed to position the front and back side */
+        .flip-box-inner {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          transition: transform 0.8s;
+          transform-style: preserve-3d;
+        }
+        
+        /* Do an horizontal flip when you move the mouse over the flip box container */
+        .flip-box:hover .flip-box-inner {
+          transform: rotateY(180deg);
+        }
+        
+        /* Position the front and back side */
+        .flip-box-front, .flip-box-back {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          backface-visibility: hidden;
+  
+        }
+        
+        /* Style the back side */
+        .flip-box-back {
+         
+          color: rgb(31, 18, 1);
+          transform: rotateY(180deg);
+          font-size: 20px;
+  
+  
+        }
+        footer {  
+          text-align: center;
+          font-size: x-large;
+          
+          border: 0.5px solid rgb(70, 39, 39);
+          border-radius: 100px;
+          color: white;
+          font: 28px Papyrus, fantasy;
+          display: block;
+          min-height: 10px;
+          padding-top: 10px;
+          position: relative;
+          text-shadow: 3px 3px rgb(94, 70, 70);
+          margin-left: 450px;
+          width: 500px;
+  
+      }
