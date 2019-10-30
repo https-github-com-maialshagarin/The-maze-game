@@ -1,3 +1,56 @@
+* {box-sizing: border-box;}
+body {
+  background:radial-gradient(rgb(250, 208, 201), rgba(32, 54, 62, 0.591)) fixed;
+
+  color:rgb(167, 105, 105);
+
+  
+    position: relative;
+      }
+      header {
+        background-image: repeating-radial-gradient(rgb(32, 30, 30));
+        font-size:30px;
+      }
+      h1{
+          text-align: center;
+          font-family: 'Pacifico', cursive;
+          background-repeat: repeat-x;
+          font-size:70px;
+        
+      }
+     
+    ul {
+        
+    list-style-type: none;
+    margin: 0;
+    padding-bottom :10px;
+    overflow: hidden;
+    padding:0px;
+    /* position:fixed; */
+    margin:2px;
+  
+    background-color:rgb(167, 105, 105);
+  }
+  
+  
+  
+  li {
+    display: inline-block;
+    margin-left: 100px;
+
+  }
+  li a {
+    display:inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    
+
+
+  }
 #malalaImg {
     width:150px;
 }
@@ -11,7 +64,7 @@
 /* margin-top:0px; */
 /* margin-left: 170px; */
 position:absolute;
-top:200px;
+top:270px;
 left:170px;
 
 }
@@ -67,13 +120,13 @@ body{
   
 }
 #fsth1{
-font-size: 25px;
+font-size: 20px;
 padding:10px;
 color:rgb(242, 235, 235);
 }
 #stp{
     color:rgb(242, 235, 235);
-    font-size: 25px;
+    font-size: 20px;
     font-family: Marker Felt, fantasy;
 }
 #ndp{
@@ -96,7 +149,7 @@ button:hover{
 }
 .novel2{
 position:absolute;
-top:550px;
+top:610px;
 left:170px;
 
 }
@@ -107,7 +160,7 @@ color:rgb(242, 235, 235);
 }
 #p21{
     color:rgb(242, 235, 235);
-    font-size: 25px;
+    font-size: 20px;
     font-family: Marker Felt, fantasy;
 }
 #p22{
@@ -117,17 +170,17 @@ color:rgb(242, 235, 235);
 }
 #p31{
     color:rgb(242, 235, 235);
-    font-size: 25px;
+    font-size: 20px;
     font-family: Marker Felt, fantasy;
 }
 #novel3{
 position:absolute;
-top:900px;
+top:950px;
 left:170px;
 }
 #rdh1{
 color:rgb(242, 235, 235);  
-font-size: 30px;
+font-size: 20px;
 padding:10px;
 
 }
@@ -141,18 +194,18 @@ padding:10px;
 }
 #thh1{
 color:rgb(242, 235, 235);  
-font-size: 30px;
+font-size: 20px;
 padding:10px;
 }
 #novel4{
 position:absolute;
-top:1300px;
+top:1295px;
 left:170px;
 }
 
 #p41{
 color:rgb(242, 235, 235);
-font-size: 25px;
+font-size: 20px;
 font-family: Marker Felt, fantasy;
 }
 #p42{
@@ -162,12 +215,12 @@ font-family: Marker Felt, fantasy;
 }
 #novel5{
 position:absolute;
-top:1650px;
+top:1510px;
 left:170px;
 }
 #p51{
     color:rgb(242, 235, 235);
-    font-size: 25px;
+    font-size: 20px;
     font-family: Marker Felt, fantasy;  
 }
 #p52{
@@ -177,7 +230,7 @@ left:170px;
 }
 #p41{
 color:rgb(242, 235, 235);
-font-size: 25px;
+font-size: 20px;
 font-family: Marker Felt, fantasy;
 }
 #p42{
@@ -192,7 +245,7 @@ left:170px;
 }
 #p51{
     color:rgb(242, 235, 235);
-    font-size: 25px;
+    font-size: 20px;
     font-family: Marker Felt, fantasy;  
 }
 #p52{
@@ -207,7 +260,7 @@ left:170px;
     }
     #p61{
         color:rgb(242, 235, 235);
-        font-size: 25px;
+        font-size: 20px;
         font-family: Marker Felt, fantasy;  
     }
     #p62{
@@ -231,4 +284,18 @@ left:170px;
     #button2{
         margin:5px;
     }
-    
+    footer{
+        text-align: center;
+        font-size: x-large;
+     
+        border-radius: 20px;
+        color: white;
+        display: block;
+        min-height: 50px;
+        margin: auto;
+        position: relative;
+        text-shadow: 3px 3px black;
+        /* left: 212px; */
+        width: 920px;
+        padding-top: 10px;
+      }

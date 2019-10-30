@@ -4,9 +4,6 @@
 body {
   background:radial-gradient(rgb(250, 208, 201), rgba(32, 54, 62, 0.591)) fixed;
 
-  color:rgb(167, 105, 105);
-
-  
     position: relative;
       }
       header {
@@ -72,6 +69,7 @@ body {
         margin-bottom: 100px;
         margin: 0 auto;
         max-width: 100%;
+    
 
         
       }
@@ -79,6 +77,8 @@ body {
         display: block;
         width: 50%;
         margin: 0 auto;
+        color: black;
+        font-size: 25;
     }
     .imageRow {
       /* height: 700px; */
@@ -90,7 +90,22 @@ body {
     img{
       max-width: 100%;
  height: 200px;
- border: 10px solid rgb(239, 91, 145);
- border-radius: 5%;
+ border: 10px solid rgb(167, 105, 105);
+ border-radius: 50%;
+    }
+    footer{
+      text-align: center;
+      font-size: x-large;
+   
+      border-radius: 20px;
+      color: white;
+      display: block;
+      min-height: 50px;
+      margin: auto;
+      position: relative;
+      text-shadow: 3px 3px black;
+      /* left: 212px; */
+      width: 920px;
+      padding-top: 10px;
     }
    

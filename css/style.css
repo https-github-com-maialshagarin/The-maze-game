@@ -99,6 +99,7 @@ right:20px; */
   height: 15px;
   width: 15px;
   margin:6px 2 PX;
+  text-align: center;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -140,14 +141,34 @@ div.importance {
     /* background-color: rgb(100, 85, 93); */
     height: 150px;
     width: 1300px;
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 20px;
-    float: left;
     color: black;
+   
     /* overflow-y: scroll; */
   }
-  .slide-container{
+  /* .slide-container{
     float: left;
     text-align: center;
     margin: auto;
+  } */
+ footer{
+    text-align: center;
+    font-size: x-large;
+   
+    border-radius: 20px;
+    color: white;
+    display: block;
+    min-height: 50px;
+    margin: auto;
+    position: relative;
+    text-shadow: 3px 3px black;
+    /* left: 212px; */
+    width: 920px;
+    padding-top: 50px;
+  }
+  #h233
+  {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(167, 105, 105);
   }

@@ -1,156 +1,156 @@
   
   body {
-     /* background-image: url("https://i.pinimg.com/564x/34/2a/b8/342ab8b3103e9991fbeefaee30a4b663.jpg");*/    
-    text-align: center;
-    background:radial-gradient(rgb(250, 208, 201), rgba(32, 54, 62, 0.591)) fixed;
+    /* background-image: url("https://i.pinimg.com/564x/34/2a/b8/342ab8b3103e9991fbeefaee30a4b663.jpg");*/    
+   text-align: center;
+   background:radial-gradient(rgb(250, 208, 201), rgba(32, 54, 62, 0.591)) fixed;
 }
-   h6{
-      font-family:Patrick Hand, cursive ;
-      font-size: 20px;
-      color: rgba(90, 51, 25, 0.945);
-      font-weight: 500;
-      text-align: left;
-     margin-left:100px;
-    
-     width: 130px; 
-     overflow: hidden;
-     border: 2px solid #000000;
-   }
-   h3 {
-  font-family: 'Caveat', cursive;
-  font-size: 33px;
-  color: rgba(104, 72, 50, 0.945);
-  font-weight: 500;
-  margin-left: 30px;
-  text-align: justify; 
- /* text-align-last: center; */
-        
-  
-      }
-  p {
-      font-family:oblique;
-          font-size: 25px;
-          color: rgba(136, 64, 15, 0.945);
-          font-weight: 300;	
-      
-       }
-    
-    h1 {
-  
-   font-size: 80px;
-   color:rgb(242, 235, 235);
-   font-weight: 900;
-      margin-left: 500px;
-      margin-right: 500px;
-      font-family: Brush Script MT, Brush Script Std, cursive;
-   padding: 12px;
+  h6{
+     font-family:Patrick Hand, cursive ;
+     font-size: 20px;
+     color: rgba(90, 51, 25, 0.945);
+     font-weight: 500;
+     text-align: left;
+    margin-left:100px;
+   
+    width: 130px; 
+    overflow: hidden;
+    border: 2px solid #000000;
+  }
+  h3 {
+ font-family: 'Caveat', cursive;
+ font-size: 33px;
+ color: rgba(104, 72, 50, 0.945);
+ font-weight: 500;
+ margin-left: 30px;
+ text-align: justify; 
+/* text-align-last: center; */
+       
+ 
+     }
+ p {
+     font-family:oblique;
+         font-size: 25px;
+         color: rgba(136, 64, 15, 0.945);
+         font-weight: 300;	
+     
       }
    
-      .flip-box {
-          background-color: transparent;
-          width: 300px;
-          height: 200px;
-          perspective: 1000px;
-          box-sizing: border-box;
-          padding-top: 100px;
-          padding-bottom: 500px;
-          float: left;
-          width: 50%; 
-   }
-        
-        /* This container is needed to position the front and back side */
-        .flip-box-inner {
-          position: relative;
-          width: 100%;
-          height: 100%;
-          text-align: center;
-          transition: transform 0.8s;
-          transform-style: preserve-3d;
-        }
-        
-        /* Do an horizontal flip when you move the mouse over the flip box container */
-        .flip-box:hover .flip-box-inner {
-          transform: rotateY(180deg);
-        }
-        
-        /* Position the front and back side */
-        .flip-box-front, .flip-box-back {
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          backface-visibility: hidden;
+   h1 {
+ 
+  font-size: 80px;
+  color:rgb(242, 235, 235);
+  font-weight: 900;
+     margin-left: 500px;
+     margin-right: 500px;
+     font-family: Brush Script MT, Brush Script Std, cursive;
+  padding: 12px;
+     }
   
-        }
+     .flip-box {
+         background-color: transparent;
+         width: 300px;
+         height: 200px;
+         perspective: 1000px;
+         box-sizing: border-box;
+         padding-top: 100px;
+         padding-bottom: 500px;
+         float: left;
+         width: 50%; 
+  }
+       
+       /* This container is needed to position the front and back side */
+       .flip-box-inner {
+         position: relative;
+         width: 100%;
+         height: 100%;
+         text-align: center;
+         transition: transform 0.8s;
+         transform-style: preserve-3d;
+       }
+       
+       /* Do an horizontal flip when you move the mouse over the flip box container */
+       .flip-box:hover .flip-box-inner {
+         transform: rotateY(180deg);
+       }
+       
+       /* Position the front and back side */
+       .flip-box-front, .flip-box-back {
+         position: absolute;
+         width: 100%;
+         height: 100%;
+         backface-visibility: hidden;
+ 
+       }
+       
+       /* Style the back side */
+       .flip-box-back {
         
-        /* Style the back side */
-        .flip-box-back {
+         color: rgb(31, 18, 1);
+         transform: rotateY(180deg);
+         font-size: 20px;
+ 
+ 
+       }
+       footer {  
+         text-align: center;
+         font-size: x-large;
          
-          color: rgb(31, 18, 1);
-          transform: rotateY(180deg);
-          font-size: 20px;
-  
-  
-        }
-        footer {  
-          text-align: center;
-          font-size: x-large;
-          
-          border: 0.5px solid rgb(70, 39, 39);
-          border-radius: 100px;
-          color: white;
-          font: 28px Papyrus, fantasy;
-          display: block;
-          min-height: 10px;
-          padding-top: 10px;
-          position: relative;
-          text-shadow: 3px 3px rgb(94, 70, 70);
-          margin-left: 450px;
-          width: 500px;
-  
-      }
-      ul {
-        
-        list-style-type: none;
-        margin: 0;
-        padding-bottom :10px;
-        overflow: hidden;
-        padding:0px;
-        /* position:fixed; */
-        margin:2px;
-      
-        background-color:rgb(167, 105, 105);
-      }
-      
-      
-      
-      li {
-        display: inline-block;
-        margin-left: 100px;
-    
-      }
-      li a {
-        display:inline-block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-family: 'Pacifico', cursive;
-        font-size: 24px;
-      }
-      /* #chartContainer{
-        margin-left: 500px;} */
-        /* background-image: url('http://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    border-radius: 50px; */
-
+         border: 0.5px solid rgb(70, 39, 39);
+         border-radius: 100px;
+         color: white;
+         font: 28px Papyrus, fantasy;
+         display: block;
+         min-height: 10px;
+         padding-top: 10px;
+         position: relative;
+         text-shadow: 3px 3px rgb(94, 70, 70);
+         margin-left: 450px;
+         width: 500px;
+ 
+     }
+     ul {
+       
+       list-style-type: none;
+       margin: 0;
+       padding-bottom :10px;
+       overflow: hidden;
+       padding:0px;
+       /* position:fixed; */
+       margin:2px;
      
-      /* section{
-        background-image: url('http://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9');
-     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    border-radius: 50px;
+       background-color:rgb(167, 105, 105);
+     }
+     
+     
+     
+     li {
+       display: inline-block;
+       margin-left: 100px;
+   
+     }
+     li a {
+       display:inline-block;
+       color: white;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+       font-family: 'Pacifico', cursive;
+       font-size: 24px;
+     }
+     /* #chartContainer{
+       margin-left: 500px;} */
+       /* background-image: url('http://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   border-radius: 50px; */
 
-      } */ 
+    
+     /* section{
+       background-image: url('http://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9');
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   border-radius: 50px;
+
+     } */ 
