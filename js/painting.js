@@ -24,11 +24,11 @@ window.onload = function () {
 
     series1.dataPoints = [
             { label: "The Scream ", y: 150 },
-            { label: "The Last Supper", y: 69 },
-            { label: "The Girl With a Pearl Earring", y: 80 },
-            { label: "Le Moulin de la Galette ", y: 74 },
-            { label: "Star Night", y: 64 },
-            { label: "Poppies in a Field", y: 63 }
+            { label: "The Last Supper", y: 100 },
+            { label: "The Girl With a Pearl Earring", y: 120 },
+            { label: "Le Moulin de la Galette ", y: 90 },
+            { label: "Star Night", y: 110 },
+            { label: "Poppies in a Field", y: 70 }
 
     ];
 
