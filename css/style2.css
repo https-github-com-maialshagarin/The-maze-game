@@ -1,0 +1,220 @@
+#malalaImg {
+    width:150px;
+}
+#img1{
+    width:60px;
+    margin:5px; 
+
+    
+}
+.novel1{
+/* margin-top:0px; */
+/* margin-left: 170px; */
+position:absolute;
+top:200px;
+left:170px;
+
+}
+
+
+#img2{
+    width:70px;
+}
+#img3{
+    width:60px;
+}
+#novel2img{
+    width:140px;
+}
+#novel3img{
+    width:150px;
+}
+#novel4img{
+    width:100px;
+}
+#41p {
+font-size:12px;
+
+}
+#novel5img{
+    width:150px;
+}
+#img5{
+    width:60px;
+}
+#img4{
+    width:60px;  
+}
+#novel6img{
+    width:100px;
+} 
+#img6{
+    width:60px;
+}
+body{
+    background:radial-gradient(rgb(250, 208, 201), rgba(32, 54, 62, 0.591)) fixed;
+}
+
+#lines{
+    color:rgb(182, 140, 140);
+   
+}
+#all{
+    text-align: center;
+    font-size: 65px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color:rgb(242, 235, 235);
+  
+}
+#fsth1{
+font-size: 25px;
+padding:10px;
+color:rgb(242, 235, 235);
+}
+#stp{
+    color:rgb(242, 235, 235);
+    font-size: 25px;
+    font-family: Marker Felt, fantasy;
+}
+#ndp{
+    color:rgb(109, 105, 105); 
+    font-size: 20px;
+    font-family: Marker Felt, fantasy;
+}
+
+button {
+    padding:10px;
+    border-radius: 10px;
+   background-color:lightgrey;
+   color:palevioletred;
+   margin:0px;
+  
+}
+button:hover{
+    color:white;
+    background-color: lavender;
+}
+.novel2{
+position:absolute;
+top:550px;
+left:170px;
+
+}
+#ndh1{
+font-size: 25px;
+padding:10px;
+color:rgb(242, 235, 235);
+}
+#p21{
+    color:rgb(242, 235, 235);
+    font-size: 25px;
+    font-family: Marker Felt, fantasy;
+}
+#p22{
+    color:rgb(109, 105, 105); 
+    font-size: 20px;
+    font-family: Marker Felt, fantasy; 
+}
+#p31{
+    color:rgb(242, 235, 235);
+    font-size: 25px;
+    font-family: Marker Felt, fantasy;
+}
+#novel3{
+position:absolute;
+top:900px;
+left:170px;
+}
+#rdh1{
+color:rgb(242, 235, 235);  
+font-size: 30px;
+padding:10px;
+
+}
+#p32{
+    color:rgb(109, 105, 105); 
+    font-size: 20px;
+    font-family: Marker Felt, fantasy;
+}
+#novel4img{
+    width:150px;
+}
+#thh1{
+color:rgb(242, 235, 235);  
+font-size: 30px;
+padding:10px;
+}
+#novel4{
+position:absolute;
+top:1300px;
+left:170px;
+}
+
+#p41{
+color:rgb(242, 235, 235);
+font-size: 25px;
+font-family: Marker Felt, fantasy;
+}
+#p42{
+    color:rgb(109, 105, 105); 
+    font-size: 20px;
+    font-family: Marker Felt, fantasy;
+}
+#novel5{
+position:absolute;
+top:1650px;
+left:170px;
+}
+#p51{
+    color:rgb(242, 235, 235);
+    font-size: 25px;
+    font-family: Marker Felt, fantasy;  
+}
+#p52{
+    color:rgb(109, 105, 105); 
+    font-size: 20px;
+    font-family: Marker Felt, fantasy; 
+}
+#p41{
+color:rgb(242, 235, 235);
+font-size: 25px;
+font-family: Marker Felt, fantasy;
+}
+#p42{
+    color:rgb(109, 105, 105); 
+    font-size: 20px;
+    font-family: Marker Felt, fantasy;
+}
+#novel5{
+position:absolute;
+top:1650px;
+left:170px;
+}
+#p51{
+    color:rgb(242, 235, 235);
+    font-size: 25px;
+    font-family: Marker Felt, fantasy;  
+}
+#p52{
+    color:rgb(109, 105, 105); 
+    font-size: 20px;
+    font-family: Marker Felt, fantasy; 
+}
+#novel6{
+    position:absolute;
+    top:1990px;
+    left:170px;
+    }
+    #p61{
+        color:rgb(242, 235, 235);
+        font-size: 25px;
+        font-family: Marker Felt, fantasy;  
+    }
+    #p62{
+        color:rgb(109, 105, 105); 
+        font-size: 20px;
+        font-family: Marker Felt, fantasy; 
+    }
+    
+
+
