@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+}
+body {
+    background:radial-gradient(rgb(92, 78, 102) , #fff ) fixed ;
+
+    font-family: Verdana, sans-serif;
+      }
+      header {
+        background-image: repeating-radial-gradient(rgb(32, 30, 30));
+        font-size:30px;
+      }
+      h1{
+          text-align: center;
+          background-color: lavender;
+          background-repeat: repeat-x;
+          font-family: monospace;
+      }
+     
+    ul {
+        
+    list-style-type: none;
+    margin: 0;
+    padding-bottom : 25px;
+    overflow: hidden;
+    background-color: black;
+    margin-left: 100px;
+    display: inline-block;
+   
+  }
+ 
+  
+  
+  ul a {
+    display:inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  ul a:hover {
+      display: block;
+    background-color: #111;
+    padding-bottom : 10px;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;  
+
+  }
+
+
+
+       
+      /* } */
+      /* .text ul { */
+          /* text-align: center; */
+          /* overflow:left ; */
+      /* }/* */
+      div.ourimage {
+          float: left;
+        vertical-align: top;
+        /* display: inline-block; */
+        text-align: center;
+        width: 120px;
+        width: 50%;
+        margin-bottom: 100px;
+        margin: 0 auto;
+        
+      }
+      .caption {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .imageRow {
+      /* height: 700px; */
+      width: 100%;
+      float: left;
+      margin-bottom: 100px;
+    }
