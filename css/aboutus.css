@@ -2,9 +2,12 @@
   box-sizing: border-box;
 }
 body {
-    background:radial-gradient(rgb(92, 78, 102) , #fff ) fixed ;
+  background:radial-gradient(rgb(250, 208, 201), rgba(32, 54, 62, 0.591)) fixed;
 
-    font-family: Verdana, sans-serif;
+  color:rgb(167, 105, 105);
+
+  
+    position: relative;
       }
       header {
         background-image: repeating-radial-gradient(rgb(32, 30, 30));
@@ -12,38 +15,42 @@ body {
       }
       h1{
           text-align: center;
-          background-color: lavender;
+          font-family: 'Pacifico', cursive;
           background-repeat: repeat-x;
-          font-family: monospace;
+          font-size:70px;
+        
       }
      
     ul {
         
     list-style-type: none;
     margin: 0;
-    padding-bottom : 25px;
+    padding-bottom :10px;
     overflow: hidden;
-    background-color: black;
-    margin-left: 100px;
-    display: inline-block;
-   
+    padding:0px;
+    /* position:fixed; */
+    margin:2px;
+  
+    background-color:rgb(167, 105, 105);
   }
- 
   
   
-  ul a {
+  
+  li {
+    display: inline-block;
+    margin-left: 100px;
+
+  }
+  li a {
     display:inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-  ul a:hover {
-      display: block;
-    background-color: #111;
-    padding-bottom : 10px;
-    font-size: 15px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;  
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    
+
 
   }
 
@@ -64,6 +71,8 @@ body {
         width: 50%;
         margin-bottom: 100px;
         margin: 0 auto;
+        max-width: 100%;
+
         
       }
       .caption {
@@ -76,4 +85,12 @@ body {
       width: 100%;
       float: left;
       margin-bottom: 100px;
+      max-width: 100%;
     }
+    img{
+      max-width: 100%;
+ height: 200px;
+ border: 10px solid rgb(239, 91, 145);
+ border-radius: 5%;
+    }
+   
