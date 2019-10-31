@@ -6,7 +6,7 @@ window.onload = function () {
 
     var series1 = { //dataSeries - first quarter
         type: "column",
-        name: "prices",
+        name: "",
         showInLegend: true
     };
 
