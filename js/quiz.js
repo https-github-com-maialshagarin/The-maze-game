@@ -81,8 +81,7 @@ function showScores() {
 
 function scoregift1() {
     var person = prompt("Please enter your name : ");
-    if (person != null) {
-
+    if (quiz.score >= 7) {
 
         alert(" congratulations " + person + " you pass our quiz you won  a book");
     }

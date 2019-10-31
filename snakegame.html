@@ -4,7 +4,7 @@
     <title>Snake-Game</title>
     <style>
         body {
-            background: radial-gradient(green, black) fixed;
+            background: radial-gradient(pink, black) fixed;
         }
         
         canvas {
@@ -15,16 +15,22 @@
         
         #btn1,
         #btn5 {
-            background-color: green;
-            width: 350px;
+            background: radial-gradient(rgb(250, 208, 201), rgba(32, 54, 62, 0.591)) fixed;
+            width: 250px;
             font-size: 20px;
             color: rgb(7, 7, 7);
             border: 10px solid black;
-            border-radius: 50px;
+            border-radius: 70px;
             padding: 10px 10px;
             cursor: pointer;
+            margin-top: 5px;
+        }
+        
+        #section13 {
             display: block;
             margin: auto;
+            padding-left: 420px;
+            padding-top: -60px;
         }
     </style>
         <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
@@ -32,6 +38,7 @@
 </head>
 
 <body>
+
         <header>
 
                 <nav>
@@ -45,14 +52,16 @@
                 </nav>
             
             </header>
-    <canvas id="snake" width="610" height="610"></canvas>
-
-    <button id="btn1" onclick="history.go(0)" VALUE="Refresh">Start Again</button>
-    <button id="btn5" onclick="history.back()">Back</button>
+          <canvas id="snake" width="600" height="600"></canvas>
+    <section id="section13">
+        <button id="btn1" onclick="history.go(0)" VALUE="Refresh">Start Again</button>
+        <button id="btn5" onclick="history.back()">Back</button>
+    </section>
 
     <footer>
             <p> world's art &copy 2019 All Rights Reserved.</p>
         </footer>
+
     <script src="js/snake.js"></script>
 
 </body>
