@@ -1,7 +1,6 @@
   
   body {
-    /* background-image: url("https://i.pinimg.com/564x/34/2a/b8/342ab8b3103e9991fbeefaee30a4b663.jpg");*/    
-   text-align: center;
+   text-align: ceznter;
    background:radial-gradient(rgb(250, 208, 201), rgba(32, 54, 62, 0.591)) fixed;
 }
   h6{
@@ -23,7 +22,6 @@
  font-weight: 500;
  margin-left: 30px;
  text-align: justify; 
-/* text-align-last: center; */
        
  
      }
@@ -91,23 +89,7 @@
  
  
        }
-       footer {  
-         text-align: center;
-         font-size: x-large;
-         
-         border: 0.5px solid rgb(70, 39, 39);
-         border-radius: 100px;
-         color: white;
-         font: 28px Papyrus, fantasy;
-         display: block;
-         min-height: 10px;
-         padding-top: 10px;
-         position: relative;
-         text-shadow: 3px 3px rgb(94, 70, 70);
-         margin-left: 450px;
-         width: 500px;
- 
-     }
+  
      ul {
        
        list-style-type: none;
@@ -137,20 +119,23 @@
        font-family: 'Pacifico', cursive;
        font-size: 24px;
      }
-     /* #chartContainer{
-       margin-left: 500px;} */
-       /* background-image: url('http://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9');
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: cover;
-   border-radius: 50px; */
-
-    
-     /* section{
-       background-image: url('http://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9');
-    background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: cover;
-   border-radius: 50px;
-
-     } */ 
+     footer h4 {
+      text-align: center;
+      font-size: x-large;
+   
+      border-radius: 20px;
+      color: white;
+      display: block;
+      min-height: 50px;
+      margin: auto;
+      position: relative;
+      text-shadow: 3px 3px black;
+      /* left: 212px; */
+      width: 920px;
+      padding-top: 10px;
+    }
+     #chartContainer{
+       margin-left: 400px;
+      margin-bottom: -80px;
+    margin-top: -20px;}
+      
