@@ -1,4 +1,3 @@
-
 window.onload = function () {
     var chart = new CanvasJS.Chart("chartContainer");
 
@@ -7,7 +6,7 @@ window.onload = function () {
 
     var series1 = { //dataSeries - first quarter
         type: "column",
-        name: "First Quarter",
+        name: "",
         showInLegend: true
     };
 
@@ -24,11 +23,11 @@ window.onload = function () {
 
     series1.dataPoints = [
             { label: "The Scream ", y: 150 },
-            { label: "The Last Supper", y: 69 },
-            { label: "The Girl With a Pearl Earring", y: 80 },
-            { label: "Le Moulin de la Galette ", y: 74 },
+            { label: "The Last Supper", y: 90 },
+            { label: "The Girl With a Pearl Earring", y: 100 },
+            { label: "Le Moulin de la Galette ", y: 130 },
             { label: "Star Night", y: 64 },
-            { label: "Poppies in a Field", y: 63 }
+            { label: "Poppies in a Field", y: 170 }
 
     ];
 
