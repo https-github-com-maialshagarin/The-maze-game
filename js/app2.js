@@ -1,8 +1,6 @@
-'use atrict'
+'use strict'
 var videoElem = document.getElementById('vid');
-var vidB = document.getElementById('vidButton');
 
-vidButton.addEventListener('click', function(){
-    videoElem.volume = Math.random();
-    videoElem.autoplay = true;  
-});
+document.getElementById("button2").addEventListener("click", function(){
+    document.getElementById("form1").innerHTML = "Thank you!! :) We'll contact you as soon as possible to let you know more, have a great day <3";
+  });
